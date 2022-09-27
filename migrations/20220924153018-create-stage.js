@@ -3,7 +3,7 @@ module.exports = {
   async up(queryInterface, Sequelize) {
     await queryInterface.createTable('stages', {
       stage_id: {
-        allowNull: false,
+        //allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
